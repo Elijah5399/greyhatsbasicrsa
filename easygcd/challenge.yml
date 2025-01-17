@@ -1,0 +1,21 @@
+name: easygcd
+author: elijah5399
+category: crypto
+description: My friend told me gcd was useful in crypto. Do you know how to use it?
+
+value: 500
+type: dynamic
+decay: 40
+minimum: 100
+
+flags:
+  - grey{e45Y_pEASY_L3M0n_squ3EZY}
+
+files:
+  - dist/chall.py
+  - dist/solvetemplate.py
+
+connection_info: nc hostname 8000
+
+state: visible
+version: "0.1"
