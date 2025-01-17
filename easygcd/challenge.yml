@@ -15,6 +15,9 @@ files:
   - dist/chall.py
   - dist/solvetemplate.py
 
+hints:
+  - What is the GCD of ax and bx?
+
 connection_info: nc hostname 8000
 
 state: visible
