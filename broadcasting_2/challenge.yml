@@ -1,0 +1,11 @@
+name: broadcasting 2
+author: elijah5399
+category: crypto
+description: Me when I broadcast my message Me when I broadcast my message Me when I broadcast my message Me when I broadcast my message Me when I broadcast my message
+
+hints:
+  - Use CRT
+  - Use iroot to get flag
+
+flags:
+  - grey{m0M_Tod4y_1_le4rNt_CRT}
