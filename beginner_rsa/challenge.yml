@@ -1,7 +1,7 @@
-name: Rivest-Shamir-Adleman
-author: Yong Liang
+name: beginner_rsa
+author: warri
 category: crypto
-description: Bob and Alice are good friends who have been sending each other secret messages. Unfortunately, Bob accidentally revealed some sensitive information while transmitting the secret message. Using sniffing techniques, Mallory managed to intercept the message from Bob and now wants to decrypt them. But how?
+description: RSA is hard when the factorisation of n is unknown. Would this be enough to break it?
 
 value: 500
 type: dynamic
@@ -9,10 +9,14 @@ decay: 40
 minimum: 100
 
 flags:
-  - CS2107{pl3ase_$3cure_ur_p_q_RS@}
+  - blahaj{eqns_and_rsa_make_a_fine_couple}
+
+hints:
+  - Think about what happens when you square the hint :)
+  - What is hint^2 + 4*n?
 
 files:
-  - dist/output.txt
+  - dist/chall.py
 
 state: visible
 version: "0.1"

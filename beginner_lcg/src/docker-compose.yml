@@ -1,0 +1,6 @@
+services:
+  beginner-lcg:
+    privileged: false
+    build: .
+    ports:
+      - "8001:8001"

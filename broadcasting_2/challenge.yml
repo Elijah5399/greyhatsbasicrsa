@@ -7,5 +7,9 @@ hints:
   - Use CRT
   - Use iroot to get flag
 
+files:
+  - dist/chall.py
+  - dist/solvetemplate.py
+
 flags:
   - grey{m0M_Tod4y_1_le4rNt_CRT}

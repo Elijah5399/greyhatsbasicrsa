@@ -1,0 +1,6 @@
+services:
+  ricks_algorithm:
+    privileged: false
+    build: .
+    ports:
+      - "8002:8002"
